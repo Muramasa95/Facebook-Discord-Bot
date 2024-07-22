@@ -1,0 +1,36 @@
+{
+  "name": "fb-discord-bot",
+  "version": "1.0.0",
+  "description": "fb/discord bot",
+  "main": "discord.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "nodemonConfig": {
+    "verbose": true,
+    "watch": [
+      "src"
+    ],
+    "ext": "js env"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.0.1",
+    "@ibaraki-douji/pixivts": "^2.4.1",
+    "axios": "^1.4.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^3.0.1",
+    "npx": "^10.2.2",
+    "puppeteer": "^22.10.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.6"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.8"
+  }
+}
