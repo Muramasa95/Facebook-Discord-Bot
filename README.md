@@ -21,17 +21,17 @@ You have to install [Node.JS](https://nodejs.org/en) and [SQLite](https://www.sq
    npm run start:dev
    ```
    
-  this is for testing the bot before deploying, when you save a file the program restarts. To deploy to production:-
-  
-  ```
-  npm run start
-  ```
-  After running the bot you can use slash command (/help) or send (##help) to see how to use the bot.
-
-  You can also build a docker image for this bot using 
-  ```
-  docker build . -t social-media-bot:latest
-  ```
-  Note: docker image can be large due to shipping it with Puppeteer, you can remove its lines from the dockerfile to achieve much lesser image size.
+      this is for testing the bot before deploying, when you save a file the program restarts. To deploy to production:-
+      
+      ```
+      npm run start
+      ```
+      After running the bot you can use slash command (/help) or send (##help) to see how to use the bot.
+      
+      You can also build a docker image for this bot using 
+      ```
+      docker build . -t social-media-bot:latest
+      ```
+      Note: docker image can be large due to shipping it with Puppeteer, you can remove its lines from the dockerfile to achieve much lesser image size.
 
 
